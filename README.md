@@ -1,23 +1,31 @@
-This project is a Java-based implementation of the classic Tower of Hanoi puzzle game. The objective is to move all disks from Tower 1 to Tower 3, following the rules:
+This is a Java-based implementation of the classic Tower of Hanoi puzzle game, built using the Model-View-Controller (MVC) architecture for clean and maintainable code separation.
+
+🧩 Game Objective:
+Move all disks from Tower 1 to Tower 3, following these rules:
 
 Only one disk can be moved at a time.
 
-A larger disk cannot be placed on top of a smaller one.
+A larger disk cannot be placed on top of a smaller disk.
 
-🧠 The game challenges logical thinking and recursive problem-solving skills.
+🧱 Project Structure:
+Model: Manages the game logic and state (disks, towers, and rules).
 
-✅ Built using Java and object-oriented programming principles.
-✅ User input is supported to manually play the game.
-✅ Includes console-based visualization for easy interaction.
+View: Displays information to the user via the console.
 
-🔗 View the source code here: [GitHub Repository URL]
+Controller: Handles user input and coordinates between Model and View.
 
-This project demonstrates my skills in:
+✅ Features:
+Console-based user interface
 
-Recursive algorithms
+Manual gameplay via user input
 
-Java syntax and OOP
+Uses recursion for the optimal solution
 
-Game logic and rule validation
+Clean code with object-oriented principles
 
-Clean and structured coding
+🛠️ Technologies:
+Java (OOP, recursion, console I/O)
+
+MVC architecture
+
+This project showcases my skills in Java programming, clean architecture, recursion, and problem-solving.
